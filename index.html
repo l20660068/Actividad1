@@ -41,6 +41,18 @@
         button {
             margin-left: 10px;
         }
+        .btn-volver {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn-volver:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +61,8 @@
         <input type="text" id="taskInput" placeholder="Nueva tarea">
         <button onclick="addTask()">Agregar</button>
         <ul id="taskList"></ul>
+
+        <a href="URL_DE_TU_DASHBOARD" class="btn-volver">Volver a la página principal</a>
     </div>
 
     <script>
